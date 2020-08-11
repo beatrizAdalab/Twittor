@@ -4,15 +4,16 @@
 var url = window.location.href;
 var swLocation ='/Twittor/sw.js' 
 
-if(navigator.serviceWorker){
 
-    //Desarrollo
-    if (url.includes('localhost')){
-        swLocation='/sw.js'
+if ( navigator.serviceWorker ) {
+
+    //desarrollo
+    if ( url.includes('localhost') ) {
+        swLocation = '/sw.js';
     }
 
-    //Producción
-    navigator.serviceWorker.register(swLocation)
+    //producción
+    navigator.serviceWorker.register( swLocation );
 }
 
 
