@@ -1,3 +1,3 @@
 # Twittor
 
-Chat usando jQuery para PWAs
+Chat de heroes. Práctica de PWAs
