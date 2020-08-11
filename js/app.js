@@ -12,7 +12,7 @@ if(navigator.serviceWorker){
     }
 
     //Producción
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register(swLocation)
 }
 
 
